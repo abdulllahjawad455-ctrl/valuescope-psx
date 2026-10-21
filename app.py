@@ -1,7 +1,7 @@
 import math
 import pandas as pd
 import streamlit as st
-
+import yfinance as yf 
 # 1. Page Configuration
 st.set_page_config(
     page_title="ValueScope — PSX Stock Valuation",
